@@ -20,12 +20,12 @@ public class MovieResponse
         ReleaseDate = m.ReleaseDate;
         Genres = m.Genres.Select(g => g.Name);
         Providers = m.Providers.Select(p => p.Name);
-        Reviews = m.Reviews.Select(r => new ReviewResponse
-        {
-            User = r.User.Name,
-            Comment = r.Comment,
-            Rating = r.Rating
-        });
+        // Reviews = m.Reviews.Select(r => new ReviewResponse
+        // {
+        //     User = r.User.Name,
+        //     Comment = r.Comment,
+        //     Rating = r.Rating
+        // });
         
         if (m.Reviews.Any())
             Rating = m.Reviews.Select(r => r.Rating).Average();

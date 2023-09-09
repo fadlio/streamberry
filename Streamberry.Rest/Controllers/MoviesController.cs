@@ -32,12 +32,6 @@ public class MoviesController
                 ReleaseDate = m.ReleaseDate,
                 Genres = m.Genres.Select(g => g.Name),
                 Providers = m.Providers.Select(p => p.Name),
-                Reviews = m.Reviews.Select(r => new ReviewResponse
-                {
-                    User = r.User.Name,
-                    Comment = r.Comment,
-                    Rating = r.Rating
-                }),
                 // https://stackoverflow.com/questions/1287146/handling-null-results-with-the-linq-average-method
                 Rating = m.Reviews.Select(r => (int?)r.Rating).Average() ?? 0
             })
@@ -89,12 +83,6 @@ public class MoviesController
                 ReleaseDate = m.ReleaseDate,
                 Genres = m.Genres.Select(g => g.Name),
                 Providers = m.Providers.Select(p => p.Name),
-                Reviews = m.Reviews.Select(r => new ReviewResponse
-                {
-                    User = r.User.Name,
-                    Comment = r.Comment,
-                    Rating = r.Rating
-                }),
                 // https://stackoverflow.com/questions/1287146/handling-null-results-with-the-linq-average-method
                 Rating = m.Reviews.Select(r => (int?)r.Rating).Average() ?? 0
             })
@@ -116,12 +104,6 @@ public class MoviesController
             ReleaseDate = m.ReleaseDate,
             Genres = m.Genres.Select(g => g.Name),
             Providers = m.Providers.Select(p => p.Name),
-            Reviews = m.Reviews.Select(r => new ReviewResponse
-            {
-                User = r.User.Name,
-                Comment = r.Comment,
-                Rating = r.Rating
-            }),
             // https://stackoverflow.com/questions/1287146/handling-null-results-with-the-linq-average-method
             Rating = m.Reviews.Select(r => (int?)r.Rating).Average() ?? 0
         }).FirstOrDefaultAsync(m => m.Id == id);

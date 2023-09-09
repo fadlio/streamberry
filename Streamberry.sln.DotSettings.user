@@ -1,7 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=05aab52e_002D2847_002D450a_002D8f91_002D8994600ab5a7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::599A5014-395D-40BA-AB8A-7864375D1988::net7.0::Streamberry.Rest.Test.GenresControllerTests.GetAvgRatingByYearTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::599A5014-395D-40BA-AB8A-7864375D1988::net7.0::Streamberry.Rest.Test.GenresControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::599A5014-395D-40BA-AB8A-7864375D1988::net7.0::Streamberry.Rest.Test.MoviesControllerTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Streamberry/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
