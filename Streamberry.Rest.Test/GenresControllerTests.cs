@@ -32,6 +32,6 @@ public class GenresControllerTests
         {
             PageSize = 25
         });
-        Assert.That(res.Value!.Result.Count(), Is.EqualTo(25));
+        Assert.That(res.Value!.TotalFetched, Is.EqualTo(25));
     }
 }

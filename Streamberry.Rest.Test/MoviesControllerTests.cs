@@ -28,7 +28,7 @@ public class MoviesControllerTests
         {
             PageSize = 25
         });
-        Assert.That(res.Value!.Result.Count(), Is.EqualTo(25));
+        Assert.That(res.Value!.TotalFetched, Is.EqualTo(25));
     }
 
     [TestCase(1, ExpectedResult = 1)]
@@ -116,7 +116,7 @@ public class MoviesControllerTests
         switch (res.Result)
         {
             case Ok<PaginatedResponse<MovieResponse>> ok:
-                Assert.That(ok.Value!.Result.Count(), Is.EqualTo(25));
+                Assert.That(ok.Value!.TotalFetched, Is.EqualTo(25));
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
