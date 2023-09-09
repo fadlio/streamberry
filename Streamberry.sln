@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamberry.Gql", "Streamberry.Gql\Streamberry.Gql.csproj", "{CDDC52ED-EDE0-4934-AD77-A654E9F52391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamberry.Context", "Streamberry.Context\Streamberry.Context.csproj", "{60A79685-EF03-476E-8478-3A267A178681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{593C22BA-FDEF-4CB3-B5EF-CEDFB849B56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamberry.Context.Test", "Streamberry.Context.Test\Streamberry.Context.Test.csproj", "{305C8202-4662-4B65-A8B7-2863E10BBC82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamberry.Gql.Test", "Streamberry.Gql.Test\Streamberry.Gql.Test.csproj", "{5403786E-5733-4F46-87DC-98E2D79BAF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamberry.Rest", "Streamberry.Rest\Streamberry.Rest.csproj", "{688E6F1A-85BF-4C98-99D3-602406FFEB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamberry.Rest.Test", "Streamberry.Rest.Test\Streamberry.Rest.Test.csproj", "{599A5014-395D-40BA-AB8A-7864375D1988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDDC52ED-EDE0-4934-AD77-A654E9F52391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDC52ED-EDE0-4934-AD77-A654E9F52391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDC52ED-EDE0-4934-AD77-A654E9F52391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDC52ED-EDE0-4934-AD77-A654E9F52391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A79685-EF03-476E-8478-3A267A178681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A79685-EF03-476E-8478-3A267A178681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A79685-EF03-476E-8478-3A267A178681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A79685-EF03-476E-8478-3A267A178681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305C8202-4662-4B65-A8B7-2863E10BBC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305C8202-4662-4B65-A8B7-2863E10BBC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305C8202-4662-4B65-A8B7-2863E10BBC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305C8202-4662-4B65-A8B7-2863E10BBC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5403786E-5733-4F46-87DC-98E2D79BAF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5403786E-5733-4F46-87DC-98E2D79BAF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5403786E-5733-4F46-87DC-98E2D79BAF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5403786E-5733-4F46-87DC-98E2D79BAF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688E6F1A-85BF-4C98-99D3-602406FFEB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688E6F1A-85BF-4C98-99D3-602406FFEB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688E6F1A-85BF-4C98-99D3-602406FFEB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688E6F1A-85BF-4C98-99D3-602406FFEB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599A5014-395D-40BA-AB8A-7864375D1988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599A5014-395D-40BA-AB8A-7864375D1988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599A5014-395D-40BA-AB8A-7864375D1988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599A5014-395D-40BA-AB8A-7864375D1988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{305C8202-4662-4B65-A8B7-2863E10BBC82} = {593C22BA-FDEF-4CB3-B5EF-CEDFB849B56E}
+		{5403786E-5733-4F46-87DC-98E2D79BAF5F} = {593C22BA-FDEF-4CB3-B5EF-CEDFB849B56E}
+		{599A5014-395D-40BA-AB8A-7864375D1988} = {593C22BA-FDEF-4CB3-B5EF-CEDFB849B56E}
+	EndGlobalSection
+EndGlobal
